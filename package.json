@@ -1,0 +1,18 @@
+{
+  "name": "servegram",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Servegram monorepo - frontend and backend runner",
+  "scripts": {
+    "dev": "concurrently \"npm run dev:backend\" \"npm run dev:frontend\"",
+    "dev:backend": "npm run dev --prefix backend",
+    "dev:frontend": "npm run dev --prefix frontend/web",
+
+    "prod": "concurrently \"npm run prod:backend\" \"npm run prod:frontend\"",
+    "prod:backend": "npm run start --prefix backend",
+    "prod:frontend": "npm run start --prefix frontend/web"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.0"
+  }
+}
