@@ -1,0 +1,61 @@
+# -----------------------------
+# Node / JavaScript
+# -----------------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# -----------------------------
+# Environment variables
+# -----------------------------
+.env
+.env.*
+!.env.example
+
+# -----------------------------
+# Next.js
+# -----------------------------
+.next/
+out/
+.vercel/
+
+# -----------------------------
+# React Native / Mobile (future)
+# -----------------------------
+.expo/
+.expo-shared/
+android/
+ios/
+
+# -----------------------------
+# Backend build artifacts
+# -----------------------------
+dist/
+build/
+
+# -----------------------------
+# Logs
+# -----------------------------
+logs/
+*.log
+
+# -----------------------------
+# OS / Editor
+# -----------------------------
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# -----------------------------
+# Testing / Coverage
+# -----------------------------
+coverage/
+
+# -----------------------------
+# Temporary files
+# -----------------------------
+tmp/
+temp/
